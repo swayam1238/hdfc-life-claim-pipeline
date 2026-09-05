@@ -23,7 +23,6 @@ public final class ListReverser {
             walk = walk.next;
         }
 
-        // Restore the original list by reversing the temporary links.
         previous = null;
         current = head;
         while (current != null) {
@@ -44,7 +43,6 @@ public final class ListReverser {
             walk = walk.next;
         }
 
-        // Restore original.
         reverseRecursive(reversedHead, null);
         return result;
     }

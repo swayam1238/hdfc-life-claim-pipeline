@@ -42,7 +42,6 @@ public final class BranchBfs {
         String[] result = new String[5];
         int count = 0;
 
-        // Adjacency in the exact left-to-right order from the assignment.
         String[][] graph = {
             {"MUMBAI", "PUNE", "DELHI"},
             {"PUNE", "HYDERABAD"},

@@ -9,7 +9,6 @@ public final class ParenthesesChecker {
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
 
-            // This assignment's checker accepts round parentheses only.
             if (c == '(') {
                 stack.push(c);
             } else if (c == ')') {
